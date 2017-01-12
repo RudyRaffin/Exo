@@ -1,0 +1,71 @@
+<html>
+	<head>
+		<meta charset="uft-8">
+		<title> page principale </title>
+		<link rel="stylesheet" href="css/style.css" />
+	</head>
+	<body>
+		<h1 id="debut">Page principale</h1>
+		<h3>Sommaire</h3>
+		<ol>
+			<li ><a href="#paragraphe">un paragraphe</a></li>
+			<li><a href="#lien">lien vers d'autre page</a></li>
+			<li><a href="#tableau">tableau du groupe</a></li>
+		</ol>
+		<h2> image dans un dossier</h2>
+		<img src="image/bonneannee2017.jpg" title="bonne annee"  alt="une image qui prend de la place"/>
+		
+		<h2 id="paragraphe">Paragraphe</h2>
+		<p ><img src="image/paragraphe.jpg" alt="image paragraphe" class="title_img"/>
+		<div id="border_shadow">Voici un paragraphe ou l'on dit des trucs et que l'on fait des chose pour remplir une page html
+			donc petit rappel sur les <mark>mots surligné</mark>
+			Bon maintenant c'est plus du remplissage que autre chose</p>
+			<dl >Ne pas oublié de faire des ancre pour renvoyer vers	:
+			
+				<dt>des paragraphes</dt> <dd> l'endroit ou l'on dit des trucs</dd>
+				<dt>des liens</dt><dd> vers d'autres pages</dd>
+				<dt>un tableau</dt><dd>avec le nom et le poste des personne du groupe</dd>
+			</dl>
+		</div>
+		</p>
+		
+		<h2 id ="lien">Les liens</h3>
+		<p><img src="image/lien.jpg" alt="image lien" class="title_img"/></p>
+			<div id="border_shadow">voici une liste de liens
+				<ul>
+					<li><a href="page2.html">une autre page dans le meme dossier</a></li>
+					<li><a href="dossier/page3.html">une page dans un autre dossier</a></li>
+					<li><a href="#debut">vers le début de la page</a></li>
+				</ul>
+			</div>
+		<h2 id="tableau"> Les tableaux </h3>
+		<p><img src="image/tableau.png" alt="image tableau" class="title_img"/></p>
+		<div id="border_shadow_red">
+			<table >
+				<thead>
+					<th colspan = "3"> prénom </th>
+					<th colspan = "3"> poste sur le projet </th>
+				</thead>
+				<tfoot>
+					<th colspan = "6"> fin du tableau </th>
+				</tfoot>
+				<tr>
+					<td>Rudy</td>
+					<td>Isaac</td>
+					<td>Malik</td>
+					<td>Alizee</td>
+					<td>Adrien</td>
+					<td>Stephen</td>
+				<tr>
+							<tr>
+					<td>Scrum Master</td>
+					<td>Product Owner</td>
+					<td>Developpeur</td>
+					<td>Developpeur</td>
+					<td>Developpeur</td>
+					<td>Developpeur</td>
+				<tr>
+			</div>
+				
+	</body>
+</html>
