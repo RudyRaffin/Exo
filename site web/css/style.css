@@ -1,0 +1,90 @@
+h1
+{	
+	text-align: center;
+}
+h1:hover
+{
+	font-size : xx-large;
+	color : black;
+	background-color: red;
+}
+h2
+{
+	width:150px;
+	font-style: italic;
+}
+h2:hover
+{
+	color:red;
+	text-decoration:underline;
+}
+
+img
+{
+	width : 400;
+	height : 400;
+}
+
+.title_img
+{
+	text-align: center;
+	float: right;
+	box-shadow:6px 6px 50px;
+}
+
+#border_shadow
+{
+	font-family:impact;
+	width:900px;
+	height:350px;
+	text-align: center;
+	border: 3px blue outset;
+	border-radius:5%;
+	box-shadow:6px 6px 20px;
+	
+}
+#border_shadow:hover
+{
+	background-color: black;
+	color:white;
+}
+#border_shadow:active
+{
+	background: url("../image/bob.jpg") rgba(125,125,125,0.6);
+}
+#border_shadow_red
+{
+	width:900px;
+	height:350px;
+	text-align: center;
+	border: 3px blue dotted;
+	box-shadow:6px 6px 20px;
+}
+#border_shadow_red:hover
+{
+	background-color: red;
+	color:white;
+	
+}
+#border_shadow_red:active
+{
+	background: url("../image/patrick.jpg") rgba(125,125,125,0.6);
+}
+table
+{
+	
+	text-align: justify;
+	padding: 12 px;
+}
+th,td
+{
+	text-align: center;
+	border: 1px black dotted;
+	border-collapse: collapse;
+	box-shadow:6px 6px 20px;
+}
+th:hover, td:hover
+{
+	color:white;
+}
+
